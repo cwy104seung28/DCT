@@ -1,0 +1,80 @@
+body {
+  width: 100%;
+  margin: 0%;
+}
+
+.dct_main_container {
+  width: 100%;
+  height: auto;
+  color: #ffffff;
+  background-color: #333333;
+}
+
+.dct_main_container .dct_main {
+  width: 95%;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.dct_main_container .dct_main .plan_team {
+  margin-bottom: 20px;
+}
+
+.dct_main_container .dct_main .plan_team .main_plan {
+  width: 100%;
+  height: 20vw;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin-top: 10px;
+  background-color: darkcyan;
+}
+
+.dct_main_container .dct_main .member_list .list {
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.dct_main_container .dct_main .member_list .list:first-child {
+  display: block;
+}
+
+@media (max-width: 1023px) {
+  .dct_main_container .dct_main .member_list .list {
+    display: block;
+  }
+}
+
+.dct_main_container .dct_main .member_list .list .member {
+  width: 400px;
+  height: 90px;
+  margin-bottom: 20px;
+  background-color: deepskyblue;
+}
+
+@media (max-width: 767px) {
+  .dct_main_container .dct_main .member_list .list .member {
+    margin: auto;
+  }
+}
+
+.dct_main_container .dct_main .member_list .list .work {
+  width: 400px;
+  height: 30px;
+  margin-top: 60px;
+  background-color: violet;
+}
+
+@media (max-width: 1023px) {
+  .dct_main_container .dct_main .member_list .list .work {
+    margin-top: 0px;
+  }
+}
+/*# sourceMappingURL=team.css.map */

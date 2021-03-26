@@ -1,0 +1,75 @@
+body {
+    width: 100%;
+    margin: 0%;
+}
+.dct_main_container {
+    width: 100%;
+    height: auto;
+    color: #ffffff;
+    background-color: #333333;
+    .dct_main {
+        width: 95%;
+        margin: auto;
+        padding-top: 20px;
+        padding-bottom: 40px;
+        @media (max-width: 919px) {
+            width: 90%;
+        }
+
+        .works_sort {
+            margin-bottom: 20px;
+            .sort_container {
+                margin: auto;
+                display: flex;
+                justify-content: space-between;
+                margin-top: 10px;
+                margin-bottom: 50px;
+                @media (max-width: 919px) {
+                    width: 65%;
+                    flex-wrap: wrap;
+                }
+                @media (max-width: 614px) {
+                    width: 45%;
+                }
+                .sort {
+                    width: 200px;
+                    height: 400px;
+                    background-color: #d2c7ff;
+                    margin: 0 auto 20px;
+                }
+            }
+        }
+        .works_web {
+            .web {
+                width: 640px;
+                height: 360px;
+                background-color: cadetblue;
+                margin: 50px auto;
+                @media (max-width: 919px) {
+                    width: 100%;
+                    height: 40vw;
+                }
+            }
+        }
+        .works_member {
+            .member_container {
+                display: flex;
+                justify-content: space-between;
+                margin-top: 10px;
+                margin-bottom: 50px;
+                .member {
+                    width: 250px;
+                    height: 300px;
+                    background-color: cornflowerblue;
+                    @media (max-width: 919px) {
+                        width: 150px;
+                        height: 250px;
+                    }
+                    // @media (max-width: 614px) {
+                    //     之後會改成swiper
+                    // }
+                }
+            }
+        }
+    }
+}

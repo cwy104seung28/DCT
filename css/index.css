@@ -1,0 +1,114 @@
+body {
+  width: 100%;
+  margin: 0%;
+}
+
+.dct_main_container {
+  width: 100%;
+  height: auto;
+  color: #FFFFFF;
+  background-color: #333333;
+}
+
+.dct_main_container .dct_main {
+  width: 95%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+@media (max-width: 1394px) {
+  .dct_main_container .dct_main {
+    width: auto;
+    display: block;
+  }
+}
+
+.dct_main_container .dct_main .propaganda {
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 1394px) {
+  .dct_main_container .dct_main .propaganda {
+    width: 640px;
+    margin: 0 auto 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .dct_main_container .dct_main .propaganda {
+    width: 320px;
+    margin-bottom: 10px;
+  }
+}
+
+.dct_main_container .dct_main .propaganda .video {
+  width: 640px;
+  height: 360px;
+  background-color: #FFFFFF;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 767px) {
+  .dct_main_container .dct_main .propaganda .video {
+    width: 320px;
+    height: 180px;
+    margin-bottom: 20px;
+  }
+}
+
+.dct_main_container .dct_main .propaganda .primary_vision {
+  width: 640px;
+  height: 150px;
+  background-color: #FFFFFF;
+}
+
+@media (max-width: 767px) {
+  .dct_main_container .dct_main .propaganda .primary_vision {
+    width: 320px;
+    height: 100px;
+  }
+}
+
+.dct_main_container .dct_main .news {
+  width: 50%;
+}
+
+@media (max-width: 1394px) {
+  .dct_main_container .dct_main .news {
+    width: 640px;
+    margin: auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .dct_main_container .dct_main .news {
+    width: 320px;
+  }
+}
+
+.dct_main_container .dct_main .news .news_content {
+  width: 500px;
+  height: 300px;
+  background-color: #FFFFFF;
+  margin: 100px auto 50px;
+}
+
+@media (max-width: 1394px) {
+  .dct_main_container .dct_main .news .news_content {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  .dct_main_container .dct_main .news .news_content {
+    width: 320px;
+    height: 150px;
+  }
+}
+/*# sourceMappingURL=index.css.map */

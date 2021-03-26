@@ -1,0 +1,123 @@
+body {
+  width: 100%;
+  margin: 0%;
+}
+
+.dct_nav_container {
+  width: 100%;
+  height: 75px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #111111;
+}
+
+.dct_nav_container .logo {
+  width: 150px;
+  height: 60px;
+  margin-left: 10px;
+  background-color: aliceblue;
+}
+
+.dct_nav_container .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (max-width: 1023px) {
+  .dct_nav_container .menu {
+    display: none;
+  }
+}
+
+.dct_nav_container .menu div {
+  width: 120px;
+  height: 60px;
+  margin-right: 10px;
+  background-color: antiquewhite;
+}
+
+.dct_nav_container .menu_collapse {
+  display: none;
+  width: 60px;
+  height: 60px;
+  background-color: #FFFFFF;
+}
+
+@media (max-width: 1023px) {
+  .dct_nav_container .menu_collapse {
+    display: block;
+  }
+}
+
+.dct_footer_container {
+  width: 100%;
+  height: 75px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #111111;
+}
+
+@media (max-width: 767px) {
+  .dct_footer_container {
+    height: auto;
+    display: block;
+    padding-top: 10px;
+  }
+}
+
+.dct_footer_container .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (max-width: 767px) {
+  .dct_footer_container .social {
+    width: 115px;
+    margin: auto;
+  }
+}
+
+.dct_footer_container .social div {
+  width: 50px;
+  height: 50px;
+  margin-right: 5px;
+}
+
+.dct_footer_container .social .fb {
+  background-color: aquamarine;
+}
+
+.dct_footer_container .social .ig {
+  background-color: azure;
+}
+
+.dct_footer_container .copyright {
+  width: 400px;
+  height: 60px;
+  background-color: cornflowerblue;
+}
+
+@media (max-width: 767px) {
+  .dct_footer_container .copyright {
+    width: 300px;
+    height: 45px;
+    margin: auto;
+  }
+}
+/*# sourceMappingURL=template.css.map */

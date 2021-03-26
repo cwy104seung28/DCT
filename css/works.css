@@ -1,0 +1,100 @@
+body {
+  width: 100%;
+  margin: 0%;
+}
+
+.dct_main_container {
+  width: 100%;
+  height: auto;
+  color: #ffffff;
+  background-color: #333333;
+}
+
+.dct_main_container .dct_main {
+  width: 95%;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+@media (max-width: 919px) {
+  .dct_main_container .dct_main {
+    width: 90%;
+  }
+}
+
+.dct_main_container .dct_main .works_sort {
+  margin-bottom: 20px;
+}
+
+.dct_main_container .dct_main .works_sort .sort_container {
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 919px) {
+  .dct_main_container .dct_main .works_sort .sort_container {
+    width: 65%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 614px) {
+  .dct_main_container .dct_main .works_sort .sort_container {
+    width: 45%;
+  }
+}
+
+.dct_main_container .dct_main .works_sort .sort_container .sort {
+  width: 200px;
+  height: 400px;
+  background-color: #d2c7ff;
+  margin: 0 auto 20px;
+}
+
+.dct_main_container .dct_main .works_web .web {
+  width: 640px;
+  height: 360px;
+  background-color: cadetblue;
+  margin: 50px auto;
+}
+
+@media (max-width: 919px) {
+  .dct_main_container .dct_main .works_web .web {
+    width: 100%;
+    height: 40vw;
+  }
+}
+
+.dct_main_container .dct_main .works_member .member_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.dct_main_container .dct_main .works_member .member_container .member {
+  width: 250px;
+  height: 300px;
+  background-color: cornflowerblue;
+}
+
+@media (max-width: 919px) {
+  .dct_main_container .dct_main .works_member .member_container .member {
+    width: 150px;
+    height: 250px;
+  }
+}
+/*# sourceMappingURL=works.css.map */
