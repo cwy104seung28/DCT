@@ -61,7 +61,9 @@ body {
 
 @media (max-width: 767px) {
   .dct_main_container .dct_main .member_list .list .member {
-    margin: auto;
+    width: 300px;
+    height: 85px;
+    margin: 0 auto 20px;
   }
 }
 
@@ -75,6 +77,14 @@ body {
 @media (max-width: 1023px) {
   .dct_main_container .dct_main .member_list .list .work {
     margin-top: 0px;
+  }
+}
+
+@media (max-width: 767px) {
+  .dct_main_container .dct_main .member_list .list .work {
+    width: 300px;
+    height: 25px;
+    margin: auto;
   }
 }
 /*# sourceMappingURL=team.css.map */

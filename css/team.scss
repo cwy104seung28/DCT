@@ -44,7 +44,9 @@ body {
                     margin-bottom: 20px;
                     background-color: deepskyblue;
                     @media (max-width: 767px) {
-                        margin: auto;
+                        width: 300px;
+                        height: 85px;    
+                        margin: 0 auto 20px;
                     }
                 }
                 .work {
@@ -54,6 +56,11 @@ body {
                     background-color: violet;
                     @media (max-width: 1023px) {
                         margin-top: 0px;
+                    }
+                    @media (max-width: 767px) {
+                        width: 300px;
+                        height: 25px;   
+                        margin: auto; 
                     }
                 }
             }
